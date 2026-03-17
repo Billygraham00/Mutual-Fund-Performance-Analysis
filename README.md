@@ -26,12 +26,17 @@ to derive meaningful insights related to performance and risk metrics.
 <h2>📁 Project Structure</h2>
 <pre>
 📦 Mutual-Fund-Performance-Analysis
- ┣ 📜 main.py
- ┣ 📜 log_code.py
- ┣ 📊 Mutual Fund Dataset1 2025.csv
- ┣ 📊 Mutual_Fund_Cleaned.csv (output)
- ┣ 📊 Power BI Dashboard (.pbix)
- ┗ 📁 logs/
+ ┣ 📂 data/
+ ┃ ┣ raw_data.csv
+ ┃ ┗ cleaned_data.csv
+ ┣ 📂 src/
+ ┃ ┣ main.py
+ ┃ ┗ log_code.py
+ ┣ 📂 dashboard/
+ ┃ ┗ dashboard.pbix
+ ┣ 📂 logs/
+ ┣ 📂 assets/
+ ┗ README.md
 </pre>
 
 <hr>
@@ -93,7 +98,7 @@ pip install pandas numpy
 
 <h3>3️⃣ Run the Script</h3>
 <pre>
-python main.py
+python src/main.py
 </pre>
 
 <hr>
@@ -102,12 +107,12 @@ python main.py
 
 <h3>Input</h3>
 <ul>
-    <li>Raw dataset: <b>Mutual Fund Dataset1 2025.csv</b></li>
+    <li>Raw dataset: <b>data/raw_data.csv</b></li>
 </ul>
 
 <h3>Output</h3>
 <ul>
-    <li>Cleaned dataset: <b>Mutual_Fund_Cleaned.csv</b></li>
+    <li>Cleaned dataset: <b>data/cleaned_data.csv</b></li>
     <li>Log files generated in <b>/logs</b> directory</li>
 </ul>
 
@@ -124,14 +129,30 @@ The cleaned dataset is used to build an interactive <b>Power BI dashboard</b> in
     <li>Time-based returns analysis</li>
 </ul>
 
+<h3>📸 Dashboard Preview</h3>
+
+<img src="assets/dashboard1.png" width="800"/>
+<br><br>
+
+<img src="assets/dashboard2.png" width="800"/>
+<br><br>
+
+<img src="assets/dashboard3.png" width="800"/>
+<br><br>
+
+<img src="assets/dashboard4.png" width="800"/>
+<br><br>
+
+<img src="assets/dashboard5.png" width="800"/>
+
 <hr>
 
-<h2>📈 Key Insights (Example)</h2>
+<h2>📈 Key Insights</h2>
 <ul>
-    <li>High return vs high risk funds</li>
-    <li>Expense ratio impact on performance</li>
-    <li>Category-wise fund distribution</li>
-    <li>Long-term vs short-term returns comparison</li>
+    <li>Funds with higher returns generally show higher volatility (risk-return tradeoff)</li>
+    <li>Lower expense ratio funds tend to perform better in the long term</li>
+    <li>Large-cap funds are more stable compared to small-cap funds</li>
+    <li>Sharpe ratio is crucial for evaluating risk-adjusted performance</li>
 </ul>
 
 <hr>
