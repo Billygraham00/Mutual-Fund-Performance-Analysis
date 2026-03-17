@@ -131,7 +131,7 @@ The cleaned dataset is used to build an interactive <b>Power BI dashboard</b> in
 
 <h3>📸 Dashboard Preview</h3>
 
-<img src="assets/Dashboard 1.jpg" width="800"/>
+<img src="D:/Mutual Fund Performance_Project/assets/Dashboard 1.png" width="800">
 <br><br>
 
 <img src="assets/dashboard2.png" width="800"/>
