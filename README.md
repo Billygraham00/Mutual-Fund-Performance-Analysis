@@ -118,34 +118,6 @@ python src/main.py
 
 <hr>
 
-<h2>📊 Dashboard</h2>
-<p>
-The cleaned dataset is used to build an interactive <b>Power BI dashboard</b> including:
-</p>
-<ul>
-    <li>Fund performance comparison</li>
-    <li>Risk metrics (Sharpe, Beta, Alpha)</li>
-    <li>Asset allocation insights</li>
-    <li>Time-based returns analysis</li>
-</ul>
-
-<h3>📸 Dashboard Preview</h3>
-
-<img src="D:/Mutual Fund Performance_Project/assets/Dashboard 1.png" width="800">
-<br><br>
-
-<img src="assets/dashboard2.png" width="800"/>
-<br><br>
-
-<img src="assets/dashboard3.png" width="800"/>
-<br><br>
-
-<img src="assets/dashboard4.png" width="800"/>
-<br><br>
-
-<img src="assets/dashboard5.png" width="800"/>
-
-<hr>
 
 <h2>📈 Key Insights</h2>
 <ul>
